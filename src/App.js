@@ -26,7 +26,7 @@ class App extends Component {
     this.carregaODAs()
   }
   render(){
-    const{busca, odas} = this.state;
+    const{odas} = this.state;
     return (
       <section className="container">
         <div className='Cab'>
