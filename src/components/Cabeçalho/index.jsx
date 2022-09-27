@@ -1,4 +1,4 @@
-export const Cabeçalho = ({props}) => {
+export const Cabeçalho = ({}) => {
     return (
       <header class='topo-pagina'>
 		<div class='logotipo' id="logo">
