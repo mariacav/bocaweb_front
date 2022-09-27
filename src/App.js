@@ -30,10 +30,14 @@ class App extends Component {
     return (
       <section className="container">
         <div className='Cab'>
-        <Cabeçalho/>
+        <Cabeçalho
+        props={this.state.props}
+        />
         </div>
         <div className='rodape'>
-        <Rodape/>
+        <Rodape
+         pr={this.state.pr}
+        />
         </div>
         <div className='busca'>
          <Busca
