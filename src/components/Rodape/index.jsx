@@ -1,4 +1,4 @@
-export const Rodape = ({}) => {
+export const Rodape = ({pr}) => {
     return (
      <div>
       <h1>IFMS Dourados – Trabalho de Frameworks</h1>
